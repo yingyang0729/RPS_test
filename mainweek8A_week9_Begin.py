@@ -9,7 +9,7 @@ while gameVars.player is False:
     computer = gameVars.choices[randint(0,2)]
 
     print("player chose: " + gameVars.player)
-    print("computer chose: " +computer)
+    print("computer chose: " + computer)
 
 
 
@@ -49,7 +49,7 @@ while gameVars.player is False:
         winLose.winorlose("lost")  
 
     elif gameVars.computerLives == 0:
-        print("you won!")
+        winLose.winorlose("you won!")
     
 
     gameVars.player = False
