@@ -1,12 +1,12 @@
- from gameComponents import gameVars
+from gameComponents import gameVars
 
 
- def winorlose(status):
-     print("you"+status)
+def winorlose(status):
+    print("you" + status)
 
-     choice = input("do you want to play again? y/n: ")
+    choice = input("do you want to play again? y/n: ")
 
-     if choice == "n":
+    if choice == "n":
          print("========= see ya! (loser) =========")
          exit()
     elif choice == "y":
